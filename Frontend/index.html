@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌱 AgroDetect - Detección de Enfermedades en Plantas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>AgroDetect</h1>
+            </div>
+            <p class="subtitle">Sistema inteligente de detección de enfermedades en cultivos</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section">
+                <div class="upload-card">
+                    <div class="upload-area" id="uploadArea">
+                        <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                        <h3>Sube una imagen de tu planta</h3>
+                        <p>Formatos soportados: JPG, PNG, GIF (Máx. 16MB)</p>
+                        <input type="file" id="imageInput" accept="image/*" hidden>
+                        <button class="btn btn-primary" onclick="document.getElementById('imageInput').click()">
+                            <i class="fas fa-folder-open"></i> Seleccionar Imagen
+                        </button>
+                    </div>
+                    <div class="preview-container" id="previewContainer" style="display: none;">
+                        <img id="imagePreview" class="image-preview">
+                        <button class="btn btn-secondary" onclick="clearImage()">
+                            <i class="fas fa-times"></i> Cambiar Imagen
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Analyze Button -->
+            <section class="analyze-section" id="analyzeSection" style="display: none;">
+                <button class="btn btn-analyze" id="analyzeBtn" onclick="analyzeImage()">
+                    <i class="fas fa-search"></i> Analizar Planta
+                </button>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-card">
+                    <h2><i class="fas fa-clipboard-list"></i> Resultados del Análisis</h2>
+                    
+                    <!-- Prediction Result -->
+                    <div class="result-item">
+                        <h3>Diagnóstico</h3>
+                        <div class="diagnosis" id="diagnosisResult">
+                            <span class="disease-name" id="diseaseName">-</span>
+                            <span class="confidence" id="confidenceValue">-</span>
+                        </div>
+                    </div>
+
+                    <!-- Recommendation -->
+                    <div class="result-item">
+                        <h3>Recomendaciones</h3>
+                        <div class="recommendation-grid">
+                            <div class="recommendation-card">
+                                <i class="fas fa-prescription-bottle-alt"></i>
+                                <h4>Tratamiento</h4>
+                                <p id="treatmentText">-</p>
+                            </div>
+                            <div class="recommendation-card">
+                                <i class="fas fa-flask"></i>
+                                <h4>Dosis</h4>
+                                <p id="dosageText">-</p>
+                            </div>
+                            <div class="recommendation-card">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h4>Frecuencia</h4>
+                                <p id="frequencyText">-</p>
+                            </div>
+                            <div class="recommendation-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>Prevención</h4>
+                                <p id="preventionText">-</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Organic Alternative -->
+                    <div class="result-item organic-section">
+                        <h3><i class="fas fa-seedling"></i> Alternativa Orgánica</h3>
+                        <p id="organicText">-</p>
+                    </div>
+
+                    <!-- Warning -->
+                    <div class="warning-card" id="warningCard" style="display: none;">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div class="warning-content">
+                            <h4>Advertencia</h4>
+                            <p id="warningText"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Loading Spinner -->
+            <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analizando imagen...</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 AgroDetect - Sistema de IA para Agricultura</p>
+            <div class="system-stats">
+                <span id="systemStatus">Conectando...</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

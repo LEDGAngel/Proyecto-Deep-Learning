@@ -1,0 +1,629 @@
+[
+  {
+    "timestamp": "2025-11-10T16:07:01.745708",
+    "image_filename": "0a9b3ff4-5343-4814-ac2c-fdb3613d4e4d___Crnl_L.Mold_6559.JPG",
+    "prediction": {
+      "class": "Tomato___Leaf_Mold",
+      "confidence": 0.9749045372009277,
+      "all_predictions": [
+        7.018706469352765e-07,
+        0.00037879726733081043,
+        0.022823834791779518,
+        0.9749045372009277,
+        3.0505303584504873e-05,
+        0.0008918599924072623,
+        5.183318080526078e-06,
+        0.0009583160863257945,
+        6.124676019680919e-06,
+        1.3549392008371797e-07
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Enfermedad no identificada",
+      "treatment": "Consultar con especialista agr\u00edcola",
+      "confidence": "97.49%",
+      "warning": "No se encontr\u00f3 recomendaci\u00f3n espec\u00edfica para esta enfermedad"
+    }
+  },
+  {
+    "timestamp": "2025-11-10T16:09:00.876716",
+    "image_filename": "000bf685-b305-408b-91f4-37030f8e62db___GH_HL_Leaf_308.1.JPG",
+    "prediction": {
+      "class": "Tomato___healthy",
+      "confidence": 0.9999991655349731,
+      "all_predictions": [
+        2.0141072143431415e-10,
+        2.1765318714006554e-10,
+        6.101217309151252e-07,
+        1.8978445481820927e-09,
+        6.928180340537438e-08,
+        1.0662942173667034e-07,
+        4.1429043307061875e-08,
+        2.0635059633233865e-11,
+        1.8907106782983796e-11,
+        0.9999991655349731
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Planta Saludable",
+      "treatment": "Mantenimiento preventivo",
+      "dosage": "No requiere tratamiento",
+      "frequency": "Monitoreo semanal",
+      "prevention": "Continuar con buenas pr\u00e1cticas agr\u00edcolas",
+      "urgency": "alta",
+      "organic_alternative": "Continuar con pr\u00e1cticas org\u00e1nicas",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2025-11-10T16:10:04.151352",
+    "image_filename": "00ce4c63-9913-4b16-898c-29f99acf0dc3___RS_Late.B_4982.JPG",
+    "prediction": {
+      "class": "Tomato___Late_blight",
+      "confidence": 0.9598535299301147,
+      "all_predictions": [
+        4.4250904807086044e-07,
+        0.03960995748639107,
+        0.9598535299301147,
+        6.834635132690892e-05,
+        0.0001580638054292649,
+        4.854270173382247e-06,
+        0.0003045353223569691,
+        2.0623119212359597e-07,
+        3.440311857616507e-08,
+        2.4546080723553132e-08
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Tiz\u00f3n Tard\u00edo del Tomate",
+      "treatment": "Fungicidas sist\u00e9micos (Metalaxyl)",
+      "dosage": "2-2.5 ml por litro de agua",
+      "frequency": "Cada 5-7 d\u00edas en condiciones h\u00famedas",
+      "prevention": "Evitar riego por aspersi\u00f3n, podar hojas bajas",
+      "urgency": "alta",
+      "organic_alternative": "Cola de caballo o extracto de canela",
+      "confidence": "95.99%"
+    }
+  },
+  {
+    "timestamp": "2025-11-11T20:28:58.765940",
+    "image_filename": "000bf685-b305-408b-91f4-37030f8e62db___GH_HL_Leaf_308.1.JPG",
+    "prediction": {
+      "class": "Tomato___healthy",
+      "confidence": 0.9999991655349731,
+      "all_predictions": [
+        2.014095695779261e-10,
+        2.1765193813916284e-10,
+        6.101194003349519e-07,
+        1.8978336679964514e-09,
+        6.928167550768194e-08,
+        1.0662819960316483e-07,
+        4.142872711554446e-08,
+        2.063486360948108e-11,
+        1.8906999230128285e-11,
+        0.9999991655349731
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Planta Saludable",
+      "treatment": "Mantenimiento preventivo",
+      "dosage": "No requiere tratamiento",
+      "frequency": "Monitoreo semanal",
+      "prevention": "Continuar con buenas pr\u00e1cticas agr\u00edcolas",
+      "urgency": "alta",
+      "organic_alternative": "Continuar con pr\u00e1cticas org\u00e1nicas",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2025-11-11T20:29:25.337607",
+    "image_filename": "00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp_5807.JPG",
+    "prediction": {
+      "class": "Tomato___Bacterial_spot",
+      "confidence": 0.9975709319114685,
+      "all_predictions": [
+        0.9975709319114685,
+        9.870428812064347e-07,
+        6.631869950979308e-07,
+        6.802039820286154e-08,
+        0.00014954702055547386,
+        6.217666737029504e-07,
+        0.002276943763718009,
+        1.592162135466424e-07,
+        9.533736647360236e-12,
+        1.136635319198831e-08
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha Bacteriana del Tomate",
+      "treatment": "Aplicar bactericidas a base de cobre",
+      "dosage": "2-3 gramos por litro de agua",
+      "frequency": "Cada 7-10 d\u00edas",
+      "prevention": "Rotaci\u00f3n de cultivos, usar semillas certificadas",
+      "urgency": "alta",
+      "organic_alternative": "Extracto de ajo o bicarbonato de sodio (3-4 gramos de sulfato de cobre por litro)",
+      "confidence": "99.76%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:09:20.864107",
+    "image_filename": "00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp_5807.JPG",
+    "prediction": {
+      "class": "Tomato___Bacterial_spot",
+      "confidence": 0.9975709319114685,
+      "all_predictions": [
+        0.9975709319114685,
+        9.870428812064347e-07,
+        6.631869950979308e-07,
+        6.802039820286154e-08,
+        0.00014954702055547386,
+        6.217666737029504e-07,
+        0.002276943763718009,
+        1.592162135466424e-07,
+        9.533736647360236e-12,
+        1.136635319198831e-08
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha Bacteriana del Tomate",
+      "treatment": "Aplicar bactericidas a base de cobre",
+      "dosage": "2-3 gramos por litro de agua",
+      "frequency": "Cada 7-10 d\u00edas",
+      "prevention": "Rotaci\u00f3n de cultivos, usar semillas certificadas",
+      "urgency": "alta",
+      "organic_alternative": "Extracto de ajo o bicarbonato de sodio (3-4 gramos de sulfato de cobre por litro)",
+      "confidence": "99.76%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:09:44.338436",
+    "image_filename": "0a2de4c5-d688-4f9d-9107-ace1d281c307___Com.G_TgS_FL_7941.JPG",
+    "prediction": {
+      "class": "Tomato___Target_Spot",
+      "confidence": 0.9997783303260803,
+      "all_predictions": [
+        9.407277161699312e-07,
+        0.00018348568119108677,
+        2.363309249631129e-06,
+        5.4934545801188506e-08,
+        5.207332833379041e-06,
+        2.7736610718420707e-05,
+        0.9997783303260803,
+        6.188172196885944e-10,
+        1.9466851741700708e-11,
+        1.8061772379951435e-06
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha Blanco",
+      "treatment": "Azoxistrobina, Tebuconazole",
+      "dosage": "1.5 ml por litro",
+      "frequency": "Cada 10-12 d\u00edas",
+      "prevention": "Eliminar residuos, evitar exceso de nitr\u00f3geno",
+      "urgency": "alta",
+      "organic_alternative": "Extracto de cola de caballo, bicarbonato (20 gramos de cola de caballo seca por litro)",
+      "confidence": "99.98%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:10:24.500981",
+    "image_filename": "000bf685-b305-408b-91f4-37030f8e62db___GH_HL_Leaf_308.1.JPG",
+    "prediction": {
+      "class": "Tomato___healthy",
+      "confidence": 0.9999991655349731,
+      "all_predictions": [
+        2.014095695779261e-10,
+        2.1765193813916284e-10,
+        6.101194003349519e-07,
+        1.8978336679964514e-09,
+        6.928167550768194e-08,
+        1.0662819960316483e-07,
+        4.142872711554446e-08,
+        2.063486360948108e-11,
+        1.8906999230128285e-11,
+        0.9999991655349731
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Planta Saludable",
+      "treatment": "Mantenimiento preventivo",
+      "dosage": "No requiere tratamiento",
+      "frequency": "Monitoreo semanal",
+      "prevention": "Continuar con buenas pr\u00e1cticas agr\u00edcolas",
+      "urgency": "alta",
+      "organic_alternative": "Continuar con pr\u00e1cticas org\u00e1nicas",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:11:05.205644",
+    "image_filename": "00c5c908-fc25-4710-a109-db143da23112___RS_Erly.B_7778.JPG",
+    "prediction": {
+      "class": "Tomato___Spider_mites",
+      "confidence": 0.994059681892395,
+      "all_predictions": [
+        1.2068243293583691e-08,
+        0.0005140388966538012,
+        8.235262066591531e-05,
+        0.0003866119950544089,
+        0.0012718952493742108,
+        0.994059681892395,
+        0.003175947815179825,
+        9.66518564382568e-06,
+        0.0003409672644920647,
+        0.00015884997264947742
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "\u00c1caro de Dos Puntos",
+      "treatment": "Abamectina, Spiromesifen",
+      "dosage": "0.5-1 ml por litro",
+      "frequency": "Cada 5-7 d\u00edas (2-3 aplicaciones)",
+      "prevention": "Mantener humedad alta, control de malezas",
+      "urgency": "alta",
+      "organic_alternative": "Jab\u00f3n pot\u00e1sico, aceite de neem (5 ml de jab\u00f3n pot\u00e1sico + 3 ml aceite neem por litro)",
+      "confidence": "99.41%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:11:27.353482",
+    "image_filename": "0a64655c-4052-4e5f-a696-2a6cf25d10c9___GCREC_Bact.Sp_6017.JPG",
+    "prediction": {
+      "class": "Tomato___Bacterial_spot",
+      "confidence": 0.9987725615501404,
+      "all_predictions": [
+        0.9987725615501404,
+        3.8881330510776024e-06,
+        8.908314441669063e-08,
+        2.2462653959109957e-08,
+        0.0011015568161383271,
+        1.5232446060053917e-07,
+        0.00012047748168697581,
+        1.1493300462461775e-06,
+        2.581325344447327e-12,
+        2.887245997840182e-11
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha Bacteriana del Tomate",
+      "treatment": "Aplicar bactericidas a base de cobre",
+      "dosage": "2-3 gramos por litro de agua",
+      "frequency": "Cada 7-10 d\u00edas",
+      "prevention": "Rotaci\u00f3n de cultivos, usar semillas certificadas",
+      "urgency": "alta",
+      "organic_alternative": "Extracto de ajo o bicarbonato de sodio (3-4 gramos de sulfato de cobre por litro)",
+      "confidence": "99.88%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:15:13.536241",
+    "image_filename": "00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp_5807.JPG",
+    "prediction": {
+      "class": "Tomato___Bacterial_spot",
+      "confidence": 0.9975709319114685,
+      "all_predictions": [
+        0.9975709319114685,
+        9.870428812064347e-07,
+        6.631869950979308e-07,
+        6.802039820286154e-08,
+        0.00014954702055547386,
+        6.217666737029504e-07,
+        0.002276943763718009,
+        1.592162135466424e-07,
+        9.533736647360236e-12,
+        1.136635319198831e-08
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha Bacteriana del Tomate",
+      "treatment": "Aplicar bactericidas a base de cobre",
+      "dosage": "2-3 gramos por litro de agua",
+      "frequency": "Cada 7-10 d\u00edas",
+      "prevention": "Rotaci\u00f3n de cultivos, usar semillas certificadas",
+      "urgency": "alta",
+      "organic_alternative": "Extracto de ajo o bicarbonato de sodio (3-4 gramos de sulfato de cobre por litro)",
+      "confidence": "99.76%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:15:36.648538",
+    "image_filename": "0bd357fe-1e54-4c65-979c-e894e0b8a3aa___RS_Erly.B_8328.JPG",
+    "prediction": {
+      "class": "Tomato___Late_blight",
+      "confidence": 0.5817486047744751,
+      "all_predictions": [
+        0.0012893632519990206,
+        0.3844190835952759,
+        0.5817486047744751,
+        0.002019420964643359,
+        0.027277909219264984,
+        0.0002292616554768756,
+        0.0029124014545232058,
+        0.00010272081271978095,
+        2.6690455001698865e-07,
+        8.938856126405881e-07
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Tiz\u00f3n Tard\u00edo del Tomate",
+      "treatment": "Fungicidas sist\u00e9micos (Metalaxyl)",
+      "dosage": "2-2.5 ml por litro de agua",
+      "frequency": "Cada 5-7 d\u00edas en condiciones h\u00famedas",
+      "prevention": "Evitar riego por aspersi\u00f3n, podar hojas bajas",
+      "urgency": "alta",
+      "organic_alternative": "Cola de caballo o extracto de canela (4-5 gramos de oxicloruro de cobre por litro)",
+      "confidence": "58.17%",
+      "warning": "Baja confianza - considerar nueva evaluaci\u00f3n"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:15:53.527007",
+    "image_filename": "0a31e630-0d98-416b-b0e4-88a88aad1dc5___RS_HL_9653.JPG",
+    "prediction": {
+      "class": "Tomato___healthy",
+      "confidence": 0.9999442100524902,
+      "all_predictions": [
+        2.9138818534977812e-15,
+        1.211815856549947e-06,
+        5.272531300448691e-09,
+        7.872277940634831e-09,
+        9.544849888243334e-08,
+        1.22523588288459e-05,
+        4.2182873585261405e-05,
+        8.110977709786804e-13,
+        9.150549762360072e-10,
+        0.9999442100524902
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Planta Saludable",
+      "treatment": "Mantenimiento preventivo",
+      "dosage": "No requiere tratamiento",
+      "frequency": "Monitoreo semanal",
+      "prevention": "Continuar con buenas pr\u00e1cticas agr\u00edcolas",
+      "urgency": "alta",
+      "organic_alternative": "Continuar con pr\u00e1cticas org\u00e1nicas",
+      "confidence": "99.99%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:15:58.621245",
+    "image_filename": "0a6203b9-ced0-4934-ae23-4a7d2e2e2fdd___RS_Late.B_6424.JPG",
+    "prediction": {
+      "class": "Tomato___Late_blight",
+      "confidence": 0.9999964237213135,
+      "all_predictions": [
+        1.2856549592293876e-12,
+        3.531624088282115e-06,
+        0.9999964237213135,
+        2.8680839037065198e-08,
+        6.875777724957288e-09,
+        3.046150484631305e-11,
+        4.4318899661277555e-09,
+        5.803425909322105e-14,
+        2.5417613803463315e-16,
+        1.2946180314842709e-14
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Tiz\u00f3n Tard\u00edo del Tomate",
+      "treatment": "Fungicidas sist\u00e9micos (Metalaxyl)",
+      "dosage": "2-2.5 ml por litro de agua",
+      "frequency": "Cada 5-7 d\u00edas en condiciones h\u00famedas",
+      "prevention": "Evitar riego por aspersi\u00f3n, podar hojas bajas",
+      "urgency": "alta",
+      "organic_alternative": "Cola de caballo o extracto de canela (4-5 gramos de oxicloruro de cobre por litro)",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:16:05.494906",
+    "image_filename": "0adab1d4-5696-4cd8-8453-3931b70e856d___Crnl_L.Mold_8689.JPG",
+    "prediction": {
+      "class": "Tomato___Leaf_Mold",
+      "confidence": 0.7446056008338928,
+      "all_predictions": [
+        5.0268849918211345e-06,
+        0.0016232155030593276,
+        0.00280387862585485,
+        0.7446056008338928,
+        0.24070307612419128,
+        0.006406241562217474,
+        0.0003520346654113382,
+        2.0564619262586348e-05,
+        0.003478830447420478,
+        1.507223032604088e-06
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Moho de la Hoja del Tomate",
+      "treatment": "Fungicidas a base de azufre (Azoxistrobina, Tebuconazole)",
+      "dosage": "2-3 gramos por litro de agua",
+      "frequency": "Cada 7-10 d\u00edas",
+      "prevention": "Mejorar la circulaci\u00f3n de aire, evitar el riego por aspersi\u00f3n",
+      "urgency": "media",
+      "organic_alternative": "Bicarbonato (Proporcion 1:9), leche diluida (100 ml de leche por litro de agua)",
+      "confidence": "74.46%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:16:25.895219",
+    "image_filename": "0a25f893-1b5f-4845-baa1-f68ac03d96ac___Matt.S_CG_7863.JPG",
+    "prediction": {
+      "class": "Tomato___Septoria_leaf_spot",
+      "confidence": 0.9993853569030762,
+      "all_predictions": [
+        1.2912638339912519e-05,
+        0.000593642529565841,
+        4.835475010622758e-06,
+        6.79730021602154e-07,
+        0.9993853569030762,
+        1.4390712976819486e-07,
+        2.0110694549657637e-06,
+        2.556015203936113e-07,
+        2.425414038498275e-07,
+        4.105984441338251e-09
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha de la Septoria",
+      "treatment": "Clorotalonil, Mancozeb",
+      "dosage": "2 gramos por litro",
+      "frequency": "Cada 10 d\u00edas",
+      "prevention": "Eliminar hojas infectadas, rotaci\u00f3n de cultivos",
+      "urgency": "alta",
+      "organic_alternative": "Aceite de neem, extracto de canela (3-5 ml de aceite de neem por litro)",
+      "confidence": "99.94%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:16:33.865089",
+    "image_filename": "0b5cda10-da2f-4647-b159-69647b42212f___Com.G_SpM_FL_1784.JPG",
+    "prediction": {
+      "class": "Tomato___Spider_mites",
+      "confidence": 0.9999878406524658,
+      "all_predictions": [
+        1.8701382456520754e-11,
+        1.8105295040982128e-08,
+        1.54580970246343e-08,
+        2.1977634787617717e-06,
+        6.829971539445978e-07,
+        0.9999878406524658,
+        1.2478254802772426e-06,
+        9.351382601607838e-08,
+        7.916843969724141e-06,
+        3.80489204587775e-08
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "\u00c1caro de Dos Puntos",
+      "treatment": "Abamectina, Spiromesifen",
+      "dosage": "0.5-1 ml por litro",
+      "frequency": "Cada 5-7 d\u00edas (2-3 aplicaciones)",
+      "prevention": "Mantener humedad alta, control de malezas",
+      "urgency": "alta",
+      "organic_alternative": "Jab\u00f3n pot\u00e1sico, aceite de neem (5 ml de jab\u00f3n pot\u00e1sico + 3 ml aceite neem por litro)",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:16:39.348187",
+    "image_filename": "0d97bbcf-f322-410a-984d-935e8d2bb5d0___Com.G_TgS_FL_0748.JPG",
+    "prediction": {
+      "class": "Tomato___Target_Spot",
+      "confidence": 0.9999470710754395,
+      "all_predictions": [
+        6.7529053460191335e-09,
+        4.353117219579872e-06,
+        5.707483410333225e-07,
+        7.103491839188791e-07,
+        2.021286854869686e-05,
+        1.564404010423459e-05,
+        0.9999470710754395,
+        8.031560971843987e-10,
+        1.6570767327750424e-11,
+        1.135038928623544e-05
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Mancha Blanco",
+      "treatment": "Azoxistrobina, Tebuconazole",
+      "dosage": "1.5 ml por litro",
+      "frequency": "Cada 10-12 d\u00edas",
+      "prevention": "Eliminar residuos, evitar exceso de nitr\u00f3geno",
+      "urgency": "alta",
+      "organic_alternative": "Extracto de cola de caballo, bicarbonato (20 gramos de cola de caballo seca por litro)",
+      "confidence": "99.99%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:16:55.748152",
+    "image_filename": "0c05f5bb-e38d-422f-8b1c-632d8c0d730c___PSU_CG_2133.JPG",
+    "prediction": {
+      "class": "Tomato___Tomato_mosaic_virus",
+      "confidence": 0.9999251365661621,
+      "all_predictions": [
+        5.965077824049425e-12,
+        1.6862304619280621e-06,
+        4.868442093908243e-09,
+        4.0603711681796995e-07,
+        8.551620567232021e-07,
+        6.875484541524202e-05,
+        7.627284759337272e-08,
+        3.0447065455518896e-06,
+        0.9999251365661621,
+        4.6551589250043435e-09
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Virus del Mosaico del Tomate",
+      "treatment": "Elimine las plantas infectadas, para las semillas Fosfato Tris\u00f3dico",
+      "dosage": "100 gramos por litro",
+      "frequency": "Lo antes posible para evitar la propagaci\u00f3n",
+      "prevention": "Semillas certificadas, desinfecci\u00f3n de herramientas",
+      "urgency": "alta",
+      "organic_alternative": "Calentar las semillas a 70\u00b0C durante 4 d\u00edas o a 82-85\u00b0C durante 24 horas",
+      "confidence": "99.99%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:17:26.572858",
+    "image_filename": "0b1dcb63-9519-4b34-af8f-cd2292c86df5___YLCV_GCREC_5294.JPG",
+    "prediction": {
+      "class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 0.999984860420227,
+      "all_predictions": [
+        6.410712849458378e-09,
+        1.1122989462819532e-06,
+        6.967479748709593e-06,
+        1.3099102034175303e-06,
+        1.7619917969113885e-07,
+        1.598405219738197e-06,
+        9.671731504568015e-07,
+        0.999984860420227,
+        2.9250227271404583e-06,
+        4.200160663714314e-09
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Virus del Rizado Amarillo",
+      "treatment": "Imidacloprid (solo para virus)",
+      "dosage": "0.5 ml por litro para control de mosca",
+      "frequency": "Aplicaciones preventivas cada 15 d\u00edas",
+      "prevention": "Mallas anti-insectos, eliminar plantas infectadas",
+      "urgency": "alta",
+      "organic_alternative": "Aceite de neem para control de vector (5 ml aceite neem por litro)",
+      "confidence": "100.00%"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T18:17:55.095669",
+    "image_filename": "0bed4d68-b82c-4e96-bbfe-e0fc10df01aa___RS_Erly.B_8301.JPG",
+    "prediction": {
+      "class": "Tomato___Early_blight",
+      "confidence": 0.9912195801734924,
+      "all_predictions": [
+        1.965204774023732e-06,
+        0.9912195801734924,
+        0.005599247757345438,
+        0.0019075185991823673,
+        0.000838292995467782,
+        0.000242135240114294,
+        0.0001911019062390551,
+        2.413011088719941e-07,
+        1.8385513111951468e-09,
+        3.1681711476494456e-08
+      ]
+    },
+    "recommendation": {
+      "diagnosis": "Tiz\u00f3n Temprano del Tomate",
+      "treatment": "Fungicidas protectores (Clorotalonil)",
+      "dosage": "1.5-2 ml por litro de agua",
+      "frequency": "Cada 10-14 d\u00edas",
+      "prevention": "Eliminar restos de cultivo, mejorar ventilaci\u00f3n",
+      "urgency": "alta",
+      "organic_alternative": "Bicarbonato de sodio (1 cucharada por litro)",
+      "confidence": "99.12%"
+    }
+  }
+]
